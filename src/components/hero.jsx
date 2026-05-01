@@ -417,7 +417,7 @@ export default function DoctorsAxis() {
 
               {/* Trust bar */}
               <div style={{ display: "flex", gap: 28, marginTop: 44, flexWrap: "wrap" }}>
-                {[["1k+", "Satisfied Customers"], ["300+", "Hospitals Covered"], ["24/7", "Support Available"], ["100%", "Service Solution"]].map(([v, l]) => (
+                {[["1k+", "Satisfied Patients"], ["300+", "Hospitals Covered"], ["24/7", "Support Available"], ["100%", "Service Solution"]].map(([v, l]) => (
                   <div key={l}>
                     <div style={{ fontSize: 22, fontWeight: 700, color: "#1a56db", lineHeight: 1 }}>{v}</div>
                     <div style={{ fontSize: 12, color: "#6b7280", marginTop: 3 }}>{l}</div>
