@@ -402,7 +402,7 @@ export default function DoctorsAxis() {
                 <span style={{ color: "#1a56db", fontStyle: "italic" }}>Nursing and Hospital Services</span>
               </h1>
               <p style={{ fontSize: 16, lineHeight: 1.7, color: "#4b5563", maxWidth: 480, marginBottom: 32 }}>
-                We help you find ICU, Ambulance, and other hospital services fast. Just message us on WhatsApp and we will guide you in simple steps.
+                We help you find <strong>ICU, Ambulance, and other hospital services</strong> fast. Just message us on WhatsApp and we will guide you in simple steps.
               </p>
               <div className="hero-btns" style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
                 <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontSize: 15, padding: "13px 28px" }}>
