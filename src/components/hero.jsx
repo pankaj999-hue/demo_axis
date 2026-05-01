@@ -430,7 +430,7 @@ export default function DoctorsAxis() {
             <div className="hero-form" style={{ display: "flex", justifyContent: "flex-end" }}>
               <div className="hero-form-container">
                 <h3 style={{ fontSize: 24, fontWeight: 700, color: "#0f1f3d", marginBottom: 8, letterSpacing: "-0.5px" }}>Quick Booking</h3>
-                <p style={{ fontSize: 15, color: "#64748b", marginBottom: 32, lineHeight: 1.6 }}>Tell us what you need and we'll open a WhatsApp chat for you instantly.</p>
+                <p style={{ fontSize: 15, fontWeight: 600, color: "#334155", marginBottom: 32, lineHeight: 1.6 }}>Tell us what you need and we'll open a WhatsApp chat for you instantly.</p>
                 <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
                   <div>
                     <label style={{ fontSize: 13, fontWeight: 600, color: "#475569", display: "block", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>Your Name</label>
