@@ -85,7 +85,7 @@ const FACILITIES = [
       </svg>
     ),
     title: "Tests at Home",
-    desc: "Blood tests and health checkups at home with maximum discounts.",
+    desc: "Blood test at home and Health Checkup",
   },
   {
     img: "/assets/facilities/equipment.png",
