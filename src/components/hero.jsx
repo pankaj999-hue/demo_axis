@@ -398,8 +398,8 @@ export default function DoctorsAxis() {
                 </div>
               </div>
               <h1 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: "clamp(36px, 5vw, 58px)", fontWeight: 400, lineHeight: 1.15, color: "#0a1628", letterSpacing: "-0.5px", marginBottom: 20 }}>
-                Find Any Healthcare Services<br />
-                <span style={{ color: "#1a56db", fontStyle: "italic" }}>24/7 in One Click.</span>
+                Doctors Bureau<br />
+                <span style={{ color: "#1a56db", fontStyle: "italic" }}>Nursing and Hospital Services</span>
               </h1>
               <p style={{ fontSize: 16, lineHeight: 1.7, color: "#4b5563", maxWidth: 480, marginBottom: 32 }}>
                 We help you find ICU, Ambulance, and other hospital services fast. Just message us on WhatsApp and we will guide you in simple steps.
