@@ -371,13 +371,13 @@ export default function DoctorsAxis() {
       {/* HERO */}
       <section id="home" className="hero-section" style={{
         minHeight: "100vh", display: "flex", alignItems: "center",
-        background: "linear-gradient(160deg, #f8faff 0%, #ffffff 50%, #f0f7ff 100%)",
+        background: "linear-gradient(160deg, #0a1628 0%, #13274f 100%)",
         padding: "120px 24px 80px",
         position: "relative", overflow: "hidden",
       }}>
         {/* Animated background blobs */}
-        <div style={{ position: "absolute", top: -100, right: -100, width: 600, height: 600, borderRadius: "50%", background: "radial-gradient(circle, rgba(26,86,219,0.08) 0%, transparent 70%)", pointerEvents: "none", animation: "pulse 15s infinite alternate" }} />
-        <div style={{ position: "absolute", bottom: -150, left: -150, width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle, rgba(59,130,246,0.08) 0%, transparent 70%)", pointerEvents: "none", animation: "pulse 12s infinite alternate-reverse" }} />
+        <div style={{ position: "absolute", top: -100, right: -100, width: 600, height: 600, borderRadius: "50%", background: "radial-gradient(circle, rgba(26,86,219,0.2) 0%, transparent 70%)", pointerEvents: "none", animation: "pulse 15s infinite alternate" }} />
+        <div style={{ position: "absolute", bottom: -150, left: -150, width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%)", pointerEvents: "none", animation: "pulse 12s infinite alternate-reverse" }} />
         <style>{`
           @keyframes pulse {
             0% { transform: scale(1) translate(0, 0); }
@@ -389,19 +389,19 @@ export default function DoctorsAxis() {
           <div className="section-container">
             <div>
               <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 24 }}>
-                <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#fff7ed", border: "1px solid #ffedd5", borderRadius: 100, padding: "6px 14px" }}>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="#d97706" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ width: 14, height: 14 }}>
+                <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(255,247,237,0.1)", border: "1px solid rgba(255,237,213,0.2)", borderRadius: 100, padding: "6px 14px" }}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#fb923c" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ width: 14, height: 14 }}>
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                     <circle cx="12" cy="10" r="3" />
                   </svg>
-                  <span style={{ fontSize: 12, fontWeight: 600, color: "#d97706", letterSpacing: "0.5px" }}>PALGHAR TO CHURCHGATE</span>
+                  <span style={{ fontSize: 12, fontWeight: 600, color: "#fb923c", letterSpacing: "0.5px" }}>PALGHAR TO CHURCHGATE</span>
                 </div>
               </div>
-              <h1 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: "clamp(36px, 5vw, 58px)", fontWeight: 400, lineHeight: 1.15, color: "#0a1628", letterSpacing: "-0.5px", marginBottom: 20 }}>
+              <h1 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: "clamp(36px, 5vw, 58px)", fontWeight: 400, lineHeight: 1.15, color: "#ffffff", letterSpacing: "-0.5px", marginBottom: 20 }}>
                 Find Any Healthcare Services<br />
-                <span style={{ color: "#1a56db", fontStyle: "italic" }}>24/7 in One Click.</span>
+                <span style={{ color: "#60a5fa", fontStyle: "italic" }}>24/7 in One Click.</span>
               </h1>
-              <p style={{ fontSize: 16, lineHeight: 1.7, color: "#4b5563", maxWidth: 480, marginBottom: 32 }}>
+              <p style={{ fontSize: 16, lineHeight: 1.7, color: "rgba(255,255,255,0.7)", maxWidth: 480, marginBottom: 32 }}>
                 We help you find ICU, Ambulance, and other hospital services fast. Just message us on WhatsApp and we will guide you in simple steps.
               </p>
               <div className="hero-btns" style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
@@ -419,8 +419,8 @@ export default function DoctorsAxis() {
               <div style={{ display: "flex", gap: 28, marginTop: 44, flexWrap: "wrap" }}>
                 {[["300+", "Hospitals Covered"], ["24/7", "Support Available"], ["100%", "Service Solution"]].map(([v, l]) => (
                   <div key={l}>
-                    <div style={{ fontSize: 22, fontWeight: 700, color: "#1a56db", lineHeight: 1 }}>{v}</div>
-                    <div style={{ fontSize: 12, color: "#6b7280", marginTop: 3 }}>{l}</div>
+                    <div style={{ fontSize: 22, fontWeight: 700, color: "#60a5fa", lineHeight: 1 }}>{v}</div>
+                    <div style={{ fontSize: 12, color: "rgba(255,255,255,0.5)", marginTop: 3 }}>{l}</div>
                   </div>
                 ))}
               </div>
@@ -428,9 +428,9 @@ export default function DoctorsAxis() {
 
             {/* Inquiry Form */}
             <div className="hero-form" style={{ display: "flex", justifyContent: "flex-end" }}>
-              <div className="hero-form-container">
-                <h3 style={{ fontSize: 24, fontWeight: 700, color: "#0f1f3d", marginBottom: 8, letterSpacing: "-0.5px" }}>Quick Inquiry</h3>
-                <p style={{ fontSize: 15, color: "#64748b", marginBottom: 32, lineHeight: 1.6 }}>Tell us what you need and we'll open a WhatsApp chat for you instantly.</p>
+              <div className="hero-form-container" style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)" }}>
+                <h3 style={{ fontSize: 24, fontWeight: 700, color: "#ffffff", marginBottom: 8, letterSpacing: "-0.5px" }}>Quick Inquiry</h3>
+                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.6)", marginBottom: 32, lineHeight: 1.6 }}>Tell us what you need and we'll open a WhatsApp chat for you instantly.</p>
                 <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
                   <div>
                     <label style={{ fontSize: 13, fontWeight: 600, color: "#475569", display: "block", marginBottom: 8, textTransform: "uppercase", letterSpacing: "0.5px" }}>Your Name</label>
