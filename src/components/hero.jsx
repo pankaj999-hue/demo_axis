@@ -390,7 +390,10 @@ export default function DoctorsAxis() {
             <div>
               <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 24 }}>
                 <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#fff7ed", border: "1px solid #ffedd5", borderRadius: 100, padding: "6px 14px" }}>
-                  <span style={{ width: 7, height: 7, borderRadius: "50%", background: "#d97706", display: "inline-block" }} />
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#d97706" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ width: 14, height: 14 }}>
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
                   <span style={{ fontSize: 12, fontWeight: 600, color: "#d97706", letterSpacing: "0.5px" }}>PALGHAR TO CHURCHGATE</span>
                 </div>
               </div>
@@ -447,7 +450,7 @@ export default function DoctorsAxis() {
                     />
                   </div>
                   <button onClick={handleSubmit} className="btn-primary" style={{ justifyContent: "center", fontSize: 16, padding: "16px", marginTop: 8 }}>
-                    {submitted ? "✓ Opening WhatsApp..." : "Send via WhatsApp"}
+                    {submitted ? "✓ Opening WhatsApp..." : "Book Appointment on WhatsApp"}
                   </button>
                   <p style={{ fontSize: 12, color: "#94a3b8", textAlign: "center", marginTop: 8 }}>
                     Quick response guaranteed within minutes.
